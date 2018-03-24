@@ -8,15 +8,5 @@
     "name": "db",
     "user": "root",
     "connector": "mysql"
-  },
-  "heroku": {
-    "host": "ec2-54-247-81-88.eu-west-1.compute.amazonaws.com",
-    "port": 5432,
-    "url": "postgres://depsfxuklhykmp:43887f1b1182d7504a87ec8f8e8a300907d354f2707b040a380e38cec13721d1@ec2-54-247-81-88.eu-west-1.compute.amazonaws.com:5432/dfdm3sr171gd7v",
-    "database": "dfdm3sr171gd7v",
-    "password": "43887f1b1182d7504a87ec8f8e8a300907d354f2707b040a380e38cec13721d1",
-    "name": "heroku",
-    "user": "depsfxuklhykmp",
-    "connector": "postgresql"
   }
 }
