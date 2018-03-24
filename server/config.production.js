@@ -3,7 +3,7 @@
 module.exports = {
   'restApiRoot': '/api',
   'host': 'https://les-aiguilleurs.herokuapp.com/',
-  'port': process.env.STRONGLOOP_PORT,
+  'port': process.env.STRONGLOOP_PORT || 80,
   'remoting': {
     'context': false,
     'rest': {
