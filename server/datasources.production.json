@@ -2,12 +2,12 @@
   "db": {
     "host": "ec2-54-247-81-88.eu-west-1.compute.amazonaws.com",
     "port": 5432,
-    "url": "postgres://depsfxuklhykmp:43887f1b1182d7504a87ec8f8e8a300907d354f2707b040a380e38cec13721d1@ec2-54-247-81-88.eu-west-1.compute.amazonaws.com:5432/dfdm3sr171gd7v",
+    "url": "postgres://cmatvgtasnzeye:7f23ae12ad56d6a362a4be34301f1f4a1bae74d3a19fbd9ba5e677f096f2016f@ec2-54-247-81-88.eu-west-1.compute.amazonaws.com:5432/d95v1to2sbh607",
     "ssl": true,
-    "database": "dfdm3sr171gd7v",
-    "password": "43887f1b1182d7504a87ec8f8e8a300907d354f2707b040a380e38cec13721d1",
+    "database": "d95v1to2sbh607",
+    "password": "7f23ae12ad56d6a362a4be34301f1f4a1bae74d3a19fbd9ba5e677f096f2016f",
     "name": "db",
-    "user": "depsfxuklhykmp",
+    "user": "cmatvgtasnzeye",
     "connector": "postgresql"
   }
 }
