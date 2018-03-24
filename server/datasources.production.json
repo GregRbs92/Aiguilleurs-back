@@ -6,7 +6,7 @@
     "ssl": true,
     "database": "dfdm3sr171gd7v",
     "password": "43887f1b1182d7504a87ec8f8e8a300907d354f2707b040a380e38cec13721d1",
-    "name": "heroku",
+    "name": "db",
     "user": "depsfxuklhykmp",
     "connector": "postgresql"
   }
