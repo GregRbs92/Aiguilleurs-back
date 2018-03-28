@@ -1,6 +1,6 @@
 'use strict';
 
-var server = require('../server');
+var server = require('./server');
 var ds = server.dataSources.heroku || server.dataSources.db;
 var lbTables = ['AccessToken', 'ACL', 'RoleMapping', 'Role', 'Artiste', 'User'];
 ds.autoupdate(lbTables, function(er) {
