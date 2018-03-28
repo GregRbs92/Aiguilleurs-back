@@ -38,5 +38,9 @@
   "Artiste": {
     "dataSource": "db",
     "public": true
+  },
+  "Utilisateur": {
+    "dataSource": "db",
+    "public": true
   }
 }

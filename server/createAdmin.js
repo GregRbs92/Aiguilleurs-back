@@ -2,7 +2,7 @@
 
 module.exports = function(app, cb) {
   const Role = app.models.Role;
-  const User = app.models.User;
+  const Utilisateur = app.models.Utilisateur;
 
   // Create the admin role
   Role.findOne({where: {name: 'admin'}}, function(err, exists) {
@@ -19,18 +19,18 @@ module.exports = function(app, cb) {
   });
 
   function createAdmin(role) {
-    User.findOne({where: {email: 'admin@aiguilleurs.fr'}}, function(err, exists) {
+    Utilisateur.findOne({where: {email: 'admin@aiguilleurs.fr'}}, function(err, exists) {
       if (err) return cb(err);
       if (!exists) {
-        User.create({
+        Utilisateur.create({
           username: 'Admin',
           email: 'admin@aiguilleurs.fr',
           password: 'a',
         }, function(err, user) {
           if (err) return cb(err);
           role.principals.create({
-            principalType: 'User',
-            principalId: user.id,
+            principalType: 'Utilisateur',
+            principalId: Utilisateur.id,
           });
         });
       }
