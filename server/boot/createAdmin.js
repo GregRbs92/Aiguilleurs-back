@@ -1,4 +1,4 @@
-'use strict';
+/** 'use strict';
 
 module.exports = function(app, cb) {
   const Role = app.models.Role;
@@ -39,3 +39,5 @@ module.exports = function(app, cb) {
 
   cb();
 };
+
+**/
