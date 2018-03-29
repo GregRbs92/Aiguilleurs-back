@@ -30,14 +30,14 @@
     {
       "accessType": "WRITE",
       "principalType": "ROLE",
-      "principalId": "$everyone",
-      "permission": "DENY"
+      "principalId": "admin",
+      "permission": "ALLOW"
     },
     {
       "accessType": "WRITE",
       "principalType": "ROLE",
-      "principalId": "admin",
-      "permission": "ALLOW"
+      "principalId": "$everyone",
+      "permission": "DENY"
     }
   ],
   "methods": {}
