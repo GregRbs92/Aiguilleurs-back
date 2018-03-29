@@ -3,6 +3,7 @@
 module.exports = function(app, cb) {
   const Role = app.models.Role;
   const Utilisateur = app.models.Utilisateur;
+  const RoleMapping = app.models.RoleMapping;
 
   // Create the admin role
   Role.findOne({where: {name: 'admin'}}, function(err, exists) {
@@ -29,8 +30,8 @@ module.exports = function(app, cb) {
         }, function(err, user) {
           if (err) return cb(err);
           role.principals.create({
-            principalType: 'Utilisateur',
-            principalId: Utilisateur.id,
+            principalType: RoleMapping.UTILISATEUR,
+            principalId: user.id,
           });
         });
       }
