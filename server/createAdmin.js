@@ -30,8 +30,9 @@ module.exports = function(app, cb) {
         }, function(err, user) {
           if (err) return cb(err);
           role.principals.create({
-            principalType: RoleMapping.UTILISATEUR,
+            principalType: RoleMapping.USER,
             principalId: user.id,
+            modelName: 'Utilisateur',
           });
         });
       }
