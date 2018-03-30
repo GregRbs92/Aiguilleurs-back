@@ -1,1 +1,1 @@
-web: node ./server/create-tables.js && node .
+web: node ./server/create-tables.js && node ./server/createAdmin.js && node .

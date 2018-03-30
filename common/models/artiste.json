@@ -22,6 +22,10 @@
     "photo": {
       "type": "string",
       "required": true
+    },
+    "lien": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
