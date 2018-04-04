@@ -43,5 +43,13 @@
   "Utilisateur": {
     "dataSource": "db",
     "public": true
+  },
+  "Container": {
+    "dataSource": "local-storage",
+    "public": true
+  },
+  "Assets": {
+    "dataSource": "db",
+    "public": true
   }
 }
