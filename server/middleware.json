@@ -40,8 +40,13 @@
       ]
     }
   },
-  "files": {},
+  "files": {
+    "loopback#static": {
+      "params": "$!../client"
+    }
+  },
   "final": {
+    "./middleware/custom404": {},
     "loopback#urlNotFound": {}
   },
   "final:after": {
