@@ -27,6 +27,12 @@
     {
       "accessType": "*",
       "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
       "principalId": "$everyone",
       "permission": "DENY"
     },
@@ -36,12 +42,6 @@
       "principalId": "$everyone",
       "permission": "ALLOW",
       "property": "find"
-    },
-    {
-      "accessType": "*",
-      "principalType": "ROLE",
-      "principalId": "admin",
-      "permission": "ALLOW"
     }
   ],
   "methods": {}
