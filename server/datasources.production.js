@@ -2,14 +2,14 @@
 
 module.exports = {
   'db': {
-    'host': 'ec2-54-247-81-88.eu-west-1.compute.amazonaws.com',
+    'host': 'ec2-79-125-12-27.eu-west-1.compute.amazonaws.com',
     'port': 5432,
-    'url': process.env.DATABASE_URL || 'postgres://cmatvgtasnzeye:7f23ae12ad56d6a362a4be34301f1f4a1bae74d3a19fbd9ba5e677f096f2016f@ec2-54-247-81-88.eu-west-1.compute.amazonaws.com:5432/d95v1to2sbh607',
+    'url': process.env.DATABASE_URL || 'postgres://nhznbxakvkregu:7d7e6c426eeff9bd1e8df70e4b8caca8c78667851cd95a030e4d0efc5b8bf078@ec2-79-125-12-27.eu-west-1.compute.amazonaws.com:5432/d1vl9aag43cck7',
     'ssl': true,
-    'database': 'd95v1to2sbh607',
-    'password': '7f23ae12ad56d6a362a4be34301f1f4a1bae74d3a19fbd9ba5e677f096f2016f',
+    'database': 'd1vl9aag43cck7',
+    'password': '7d7e6c426eeff9bd1e8df70e4b8caca8c78667851cd95a030e4d0efc5b8bf078',
     'name': 'db',
-    'user': 'cmatvgtasnzeye',
+    'user': 'nhznbxakvkregu',
     'connector': 'postgresql',
   },
 };
