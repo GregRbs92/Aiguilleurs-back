@@ -21,7 +21,11 @@
     },
     "photo": {
       "type": "string",
-      "required": true
+      "required": false
+    },
+    "video": {
+      "type": "string",
+      "required": false
     },
     "lien": {
       "type": "string",
